@@ -1,0 +1,9 @@
+Threat,Likelihood (1-5),Impact (1-5),Initial Score,Mitigation,Owner
+Publicly exposed database or storage,3,5,15,"Private subnets; restrictive security groups and bucket policies; Config checks",Cloud platform owner
+Stolen privileged credentials,3,5,15,"MFA; federation; least privilege; short-lived credentials; alerting",IAM owner
+SQL injection or vulnerable API,4,4,16,"Parameterized SQL; secure coding; SAST/DAST; WAF as supplemental control",Application security owner
+DDoS or traffic surge,3,4,12,"CloudFront; Shield; WAF rate rules; scaling; budget alarms",SRE owner
+Ransomware or destructive deletion,3,5,15,"Isolated backups; versioning; separate backup permissions; restore drills",Data owner
+Misconfiguration drift,4,4,16,"Infrastructure as code; AWS Config; peer review; change control",Cloud operations
+Unnoticed data exfiltration,2,5,10,"Least privilege; data access logging; anomaly detection; response playbook",SOC owner
+AZ or regional disruption,2,4,8,"Multi-AZ design; tested backup and recovery; documented regional strategy",SRE owner

@@ -1,0 +1,12 @@
+Framework,Function or theme,Project control examples,Evidence to retain
+NIST CSF 2.0,GOVERN,"Security policy; accountability; risk acceptance; supplier review","Approved policies; RACI; risk register; management minutes"
+NIST CSF 2.0,IDENTIFY,"Asset inventory; data classification; data flows; risk assessment","Resource inventory; data-flow diagram; risk assessment"
+NIST CSF 2.0,PROTECT,"MFA; least privilege; segmentation; encryption; secure SDLC; backup","IAM reports; SG rules; KMS settings; pipeline results"
+NIST CSF 2.0,DETECT,"CloudTrail; GuardDuty; Config; Security Hub; WAF and flow logs","Trail validation; finding exports; alert tests; log retention"
+NIST CSF 2.0,RESPOND,"Incident response plan; triage; containment; communications","Exercise report; incident tickets; contact tree"
+NIST CSF 2.0,RECOVER,"Multi-AZ; backup restore; recovery testing","Restore test results; recovery metrics; approved RTO/RPO"
+ISO/IEC 27001:2022,Access control and identity management,"IAM role inventory; MFA; access reviews; joiner-mover-leaver procedure","IAM exports; access review approvals"
+ISO/IEC 27001:2022,Cryptography,"KMS key policies; encryption settings; TLS configuration","Key policy review; encryption evidence"
+ISO/IEC 27001:2022,Logging and monitoring,"CloudTrail; application and database logs; retention and review","Log delivery tests; retention settings; review records"
+ISO/IEC 27001:2022,Vulnerability and operations security,"Patch records; vulnerability reports; change approvals; hardened AMI","Scan reports; patch compliance; change tickets"
+ISO/IEC 27001:2022,Incident management and continuity,"Incident runbooks; tabletop exercise; backup restore and failover tests","Exercise results; restore evidence; incident records"

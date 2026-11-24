@@ -1,0 +1,3 @@
+aws_region  = "ap-south-1"
+project_name = "cloud-security-capstone"
+vpc_cidr    = "10.20.0.0/16"

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Secure Cloud Capstone Demo</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 760px; margin: 4rem auto; padding: 0 1rem; color: #18324d; }
+    main { border: 1px solid #cbd5e1; border-radius: 14px; padding: 2rem; }
+    button { background: #12345a; color: white; border: 0; padding: .7rem 1rem; border-radius: 8px; cursor: pointer; }
+    code, pre { background: #f1f5f9; padding: .4rem; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Secure Three-Tier Web Application</h1>
+    <p>Static frontend demonstration for the AWS cloud security capstone.</p>
+    <p>API status: <strong id="status">Not checked</strong></p>
+    <button id="check">Check local API</button>
+    <pre id="output">Start the Flask API, then select “Check local API”.</pre>
+  </main>
+  <script>
+    document.getElementById("check").addEventListener("click", async () => {
+      const status = document.getElementById("status");
+      const output = document.getElementById("output");
+      try {
+        const response = await fetch("http://127.0.0.1:5000/health");
+        const data = await response.json();
+        status.textContent = response.ok ? "Healthy" : "Unavailable";
+        output.textContent = JSON.stringify(data, null, 2);
+      } catch (error) {
+        status.textContent = "Unavailable";
+        output.textContent = "Could not reach local API. Start app/api/app.py first.";
+      }
+    });
+  </script>
+</body>
+</html>

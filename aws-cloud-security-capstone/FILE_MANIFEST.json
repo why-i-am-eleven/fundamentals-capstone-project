@@ -1,0 +1,110 @@
+[
+  {
+    "path": ".github/workflows/ci.yml",
+    "bytes": 1065
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 298
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 797
+  },
+  {
+    "path": "README.md",
+    "bytes": 5238
+  },
+  {
+    "path": "SUBMISSION_CHECKLIST.md",
+    "bytes": 821
+  },
+  {
+    "path": "app/api/Dockerfile",
+    "bytes": 275
+  },
+  {
+    "path": "app/api/app.py",
+    "bytes": 504
+  },
+  {
+    "path": "app/api/requirements.txt",
+    "bytes": 13
+  },
+  {
+    "path": "app/api/test_smoke.py",
+    "bytes": 210
+  },
+  {
+    "path": "app/frontend/index.html",
+    "bytes": 1599
+  },
+  {
+    "path": "diagrams/aws_three_tier_architecture.png",
+    "bytes": 185446
+  },
+  {
+    "path": "docs/AWS_Cloud_Security_Capstone_Presentation.pptx",
+    "bytes": 219278
+  },
+  {
+    "path": "docs/AWS_Cloud_Security_Capstone_Report.pdf",
+    "bytes": 229025
+  },
+  {
+    "path": "infra/terraform/network.tf",
+    "bytes": 2369
+  },
+  {
+    "path": "infra/terraform/outputs.tf",
+    "bytes": 401
+  },
+  {
+    "path": "infra/terraform/provider.tf",
+    "bytes": 334
+  },
+  {
+    "path": "infra/terraform/security-groups.tf",
+    "bytes": 1785
+  },
+  {
+    "path": "infra/terraform/terraform.tfvars.example",
+    "bytes": 97
+  },
+  {
+    "path": "infra/terraform/versions.tf",
+    "bytes": 148
+  },
+  {
+    "path": "scripts/check_aws_identity.sh",
+    "bytes": 222
+  },
+  {
+    "path": "scripts/run_local_api.sh",
+    "bytes": 164
+  },
+  {
+    "path": "security/go-live-checklist.md",
+    "bytes": 1721
+  },
+  {
+    "path": "security/incident-response-runbook.md",
+    "bytes": 1579
+  },
+  {
+    "path": "security/nist-iso-control-mapping.csv",
+    "bytes": 1749
+  },
+  {
+    "path": "security/shared-responsibility.md",
+    "bytes": 1149
+  },
+  {
+    "path": "security/threat-register.csv",
+    "bytes": 1055
+  },
+  {
+    "path": "tests/validation-checklist.md",
+    "bytes": 1155
+  }
+]
